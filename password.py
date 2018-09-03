@@ -1,7 +1,7 @@
 
 password = 'a123456'
 i = 3
-while True:
+while i > 0:
 	pwd = raw_input('please input password: ')
 	if pwd == password:
 		print('Login!')
@@ -10,5 +10,3 @@ while True:
 		i = i - 1
 		print('password error! you have',i,'chance')
 
-		if i == 0:
-			break
